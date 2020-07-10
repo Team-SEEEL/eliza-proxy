@@ -8,9 +8,10 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "node server"
+    "start": "node -r dotenv/config server"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "enzyme": "^3.11.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.4"
